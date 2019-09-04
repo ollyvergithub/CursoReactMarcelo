@@ -1,0 +1,1 @@
+console.log('Arquivo Index dentro de exercicios_webpack/ex/');
