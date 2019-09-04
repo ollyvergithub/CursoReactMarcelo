@@ -1,1 +1,3 @@
-console.log('Arquivo Index dentro de exercicios_webpack/ex/');
+const logger = require('./logger');
+
+logger.info('AQUI Mudei Este é um texto passado');
