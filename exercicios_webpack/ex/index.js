@@ -1,4 +1,5 @@
 import ClassePessoa from './ClassePessoa';
+import './estilo.css';
 import 'react';
 
 const pessoa = new ClassePessoa('Ollyver Ottoboni, agora Pietra - Alterado de novo - Outra vez - 2');
