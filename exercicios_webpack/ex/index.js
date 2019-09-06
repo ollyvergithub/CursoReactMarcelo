@@ -1,3 +1,5 @@
-const logger = require('./logger');
+import ClassePessoa from './ClassePessoa';
 
-logger.info('AQUI Mudei Este é um texto passado');
+const pessoa = new ClassePessoa('Ollyver Ottoboni, agora Pietra - Alterado de novo - Outra vez - 2');
+
+console.log(pessoa.toString());
