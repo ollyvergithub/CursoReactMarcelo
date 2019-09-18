@@ -1,8 +1,8 @@
 import React from 'react';
 
-const App = ()=> (
+const App = (props)=> (
     <div>
-        <h1>Exercícios React</h1>
+        <h1>Exercícios React {props.value}</h1>
     </div>
 );
 
