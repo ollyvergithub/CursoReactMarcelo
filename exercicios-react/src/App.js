@@ -1,12 +1,9 @@
 import React from 'react';
 
-function App() {
-  return (
+const App = ()=> (
     <div>
-      <h1>Exercícios React</h1>
+        <h1>Exercícios React</h1>
     </div>
-
-  );
-}
+);
 
 export default App;
