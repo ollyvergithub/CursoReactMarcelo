@@ -21,11 +21,8 @@ class ClassComponentComEstado extends Component{
                 <button className="btn btn-success" onClick={() => this.sum(1)}>Incrementar</button>
                 <button className="btn btn-danger" onClick={() => this.sum(-1)}>Decrementar</button>
             </div>
-
-
         );
     }
-
 }
 
 export default ClassComponentComEstado
