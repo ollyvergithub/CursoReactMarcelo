@@ -1,9 +1,10 @@
 import React from 'react';
 
-const App = (props)=> (
-    <div>
-        <h1>Exercícios React {props.value}</h1>
-    </div>
+export default props => (
+
+    <h1>Exercícios React Primeiro Componente - {props.value}</h1>
+
 );
 
-export default App;
+export const Segundo = props => <h1>Segundo Componente - {props.value}</h1>
+
