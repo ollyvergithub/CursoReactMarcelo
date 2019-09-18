@@ -8,6 +8,8 @@ const App = ()=> (
         <h1>Exercícios React </h1>
         <Family lastName="Ottoboni">
             <Member name="Ollyver"/>
+            <Member name="Pietra"/>
+            <Member name="Susi"/>
         </Family>
 
     </div>
