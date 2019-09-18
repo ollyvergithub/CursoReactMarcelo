@@ -1,10 +1,11 @@
 import React from 'react';
+import SilvaFamily from './Componentes/silvaFamily';
 
-export default props => (
-
-    <h1>Exercícios React Primeiro Componente - {props.value}</h1>
-
+const App = ()=> (
+    <div className="container">
+        <h1>Exercícios React </h1>
+        <SilvaFamily/>
+    </div>
 );
 
-export const Segundo = props => <h1>Segundo Componente - {props.value}</h1>
-
+export default App;
